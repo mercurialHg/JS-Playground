@@ -41,7 +41,7 @@ window.createShape = function () {
 
         if (len === 2) {
             Position.call(this, null, null);
-            //Position(1000, 1000); // playing : Position run as a function; `this` was bound to window; worked as expected
+            //Position(1000, 1000); // playing : Position run as a simple function; `this` was bound to window; worked as expected
             this.width = args[0];
             this.height = args[1];
         } else {
