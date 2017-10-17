@@ -1,7 +1,5 @@
 ;(function (global, $) {
   
-    if ($ !== jQuery || !$) throw 'this plugin requires jQuery';
-  
     var Greetr = function (first, last, lang) {
         return new Greetr.init(first, last, lang);
     };
