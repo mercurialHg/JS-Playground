@@ -1,4 +1,3 @@
-//Javascript: The Weird Parts practice
 
 window.createShape = function () {
     mainArgs = arguments;
